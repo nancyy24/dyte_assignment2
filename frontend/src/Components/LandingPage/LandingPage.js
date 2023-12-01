@@ -58,7 +58,7 @@ let funparent = (e) => {
 
 const get_all_logs = async () => {
   try {
-    let { data } = await axios.get("http://localhost:3000/api/all_logs");
+    let { data } = await axios.get("https://dyte-assignment2-backend.vercel.app/api/all_logs");
     console.log(data);
     const result = data.result;
     console.log("result", result);
@@ -69,7 +69,7 @@ const get_all_logs = async () => {
 };
 
 let filterOperation = async (filter) => {
-  let URL = "http://localhost:3000/api/filter";
+  let URL = "https://dyte-assignment2-backend.vercel.app/api/filter";
 
   try {
     let {data} = await axios.post(URL, filter);
