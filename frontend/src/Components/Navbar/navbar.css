@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap'); 
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+ 
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(96, 230, 230);
+    height : 10vh;
+    padding: 10px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Moon Dance', cursive;
+
+ 
+}
+
+.custom-border {
+    border-width: 10px; /* Adjust the width as needed */
+  }
